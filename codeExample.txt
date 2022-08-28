@@ -1,0 +1,12 @@
+query {
+    mongoBooks {
+        id,
+        name,
+        genre,
+        author {
+            id
+            name
+            age
+        }
+    }
+}
